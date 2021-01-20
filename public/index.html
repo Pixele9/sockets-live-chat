@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 id="main-title">ARQ SIS DISTR 2021 B</h1>
+    <form id="chat-container">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="actions"></div>
+        </div>
+        <div id="controller">
+            <input type="text" id="username" placeholder="Username">
+            <input type="text" id="message" placeholder="Send a message">
+            <button id="send-button">Send</button>
+        </div>
+    </form>
+
+   <script src="/socket.io/socket.io.js"></script>
+   <script src="chat.js"></script>
+</body>
+</html>
